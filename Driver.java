@@ -212,7 +212,7 @@ public class Driver {
 			case 1:
 				String searchBy = "";
 				while (!searchBy.equals("title") && !searchBy.equals("director")) {
-					System.out.print("Search by title or director: ");
+					System.out.print("Search by 'title' or 'director': ");
 					searchBy = scan.nextLine().toLowerCase();
 				}
 				System.out.print("Enter keywords: ");
